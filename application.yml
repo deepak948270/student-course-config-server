@@ -1,6 +1,11 @@
+
+#application name
+spring:
+  application:
+    name: demo-server
+
 #connect client to discovery server that is with eureka server
 #Note:Getting all instance registry info from the eureka server
-
 eureka:
   instance:
     prefer-ip-address: true
