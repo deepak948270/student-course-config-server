@@ -1,0 +1,11 @@
+#connect client to discovery server that is with eureka server
+#Note:Getting all instance registry info from the eureka server
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
